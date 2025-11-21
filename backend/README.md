@@ -186,22 +186,21 @@ npm run migrate
 
 ## Design Decisions
 
-1. **SQLite**: Dipilih karena tidak perlu setup database server, cocok untuk development dan testing
+1. **SQLite**: Dipilih karena tidak perlu setup database server, cocok untuk development skala kecil
 2. **Sequelize**: ORM yang mudah digunakan dengan validations built-in
 3. **Migrations**: Menggunakan migrations untuk version control database schema
 4. **Error Handling**: Centralized error handling middleware untuk konsistensi response
-5. **CORS**: Enabled untuk development (bisa di-disable untuk production)
+5. **CORS**: Enabled untuk development (bisa di-disable untuk production nanti)
 
 ## Possible Improvements
 
 1. **Authentication**: Tambahkan JWT untuk user authentication
 2. **Pagination**: Implement pagination untuk GET /todos
 3. **Filtering**: Tambahkan filter by completed status
-4. **Search**: Implement search functionality
+4. **Search**: Implement search untuk kedepannya kalau mau dibuat serius.
 5. **Rate Limiting**: Tambahkan rate limiting untuk mencegah abuse
-6. **Logging**: Implement proper logging dengan Winston atau similar
-7. **Testing**: Tambahkan unit tests dan integration tests
-8. **Environment Config**: Gunakan .env untuk configuration management
-9. **Database Indexing**: Tambahkan indexes untuk performance
-10. **API Documentation**: Gunakan Swagger/OpenAPI untuk dokumentasi
+6. **Testing**: Tambahkan unit tests dan integration tests
+7. **Environment Config**: Bisa pakai .env untuk configuration management
+8. **Database Indexing**: Bisa tambahkan indexes untuk performance
+9. **API Documentation**: Bisa pakai Swagger/OpenAPI untuk dokumentasi
 

@@ -190,7 +190,7 @@ npm run migrate
 2. **Sequelize**: ORM yang mudah digunakan dengan validations built-in
 3. **Migrations**: Menggunakan migrations untuk version control database schema
 4. **Error Handling**: Centralized error handling middleware untuk konsistensi response
-5. **CORS**: Enabled untuk development (bisa di-disable untuk production nanti)
+5. **CORS**: Enabled untuk development (bisa di-disable untuk production)
 
 ## Possible Improvements
 
